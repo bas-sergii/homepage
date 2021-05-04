@@ -1,4 +1,10 @@
-::-moz-selection {
+* {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+:-moz-selection {
   background: yellow;
 }
 ::selection {
@@ -997,7 +1003,7 @@ header + main {
 main {
   overflow: auto;
   z-index: 2;
-  background: white;
+  background: rgb(0, 0, 0);
   position: relative;
 }
 main:nth-last-child(3) {
